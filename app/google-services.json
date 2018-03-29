@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "136110635137",
+    "firebase_url": "https://weakbrain-6c9d4.firebaseio.com",
+    "project_id": "weakbrain-6c9d4",
+    "storage_bucket": "weakbrain-6c9d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136110635137:android:74d073ce0118b9ce",
+        "android_client_info": {
+          "package_name": "com.example.abhi.weakbrain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136110635137-bg3cqrfaqdkdo49g3a3bjql3b99amgdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhi.weakbrain",
+            "certificate_hash": "70d0e781d858a399376806da86c4be961b393508"
+          }
+        },
+        {
+          "client_id": "136110635137-b2jc89t25aivjad3a95p0folddoipcuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG6udVBka77xxeaoyNfHUkZ1F-HHlyJys"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136110635137-b2jc89t25aivjad3a95p0folddoipcuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

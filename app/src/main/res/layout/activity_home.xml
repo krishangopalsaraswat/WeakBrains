@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.abhi.weakbrain.HomeActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="290dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/it" />
+
+    <TextView
+        android:id="@+id/developers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="243dp"
+        android:layout_marginLeft="20dp"
+        android:text="Developers :"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/developers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="KRISHAN GOPAL SARASWAT"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/abhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/kg"
+        android:layout_alignStart="@+id/kg"
+        android:layout_below="@+id/kg"
+        android:layout_marginTop="11dp"
+        android:text="ABHISHEK KUMAR"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:id="@+id/mentor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/developers"
+        android:layout_alignStart="@+id/developers"
+        android:layout_below="@+id/abhi"
+        android:layout_marginTop="23dp"
+        android:text="Mentors :"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/rajeshmahule"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/abhi"
+        android:layout_alignStart="@+id/abhi"
+        android:layout_below="@+id/mentor"
+        android:layout_marginTop="12dp"
+        android:text="Mr.RAJESH MAHULE"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/pandey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/next"
+        android:layout_alignLeft="@+id/rajeshmahule"
+        android:layout_alignStart="@+id/rajeshmahule"
+        android:text="Mr.AGNIVESH PANDEY"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="Next"
+        android:textStyle="italic"
+        android:background="#4CAF50"
+        android:onClick="firstactivity"/>
+
+
+
+
+</RelativeLayout>

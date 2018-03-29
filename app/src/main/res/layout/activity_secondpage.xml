@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhi.weakbrain.SecondpageActivity"
+    android:background="#0e96f9">
+    <TextView
+        android:id="@+id/resource1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/resources"
+        android:textSize="42sp"
+        android:textStyle="bold|italic"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/exam"
+        android:layout_alignStart="@+id/exam"
+        android:layout_below="@+id/resource1"
+        android:layout_marginTop="13dp"
+        android:text="2. Ebooks"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat"
+        android:textSize="24dp"
+        android:layout_marginLeft="15dp"/>
+
+    <ImageView
+        android:id="@+id/ebook"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/two"
+        android:layout_marginTop="14dp"
+        app:srcCompat="@drawable/ebook" />
+
+    <Button
+        android:id="@+id/exam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/ebook"
+        android:layout_marginTop="15dp"
+        android:background="#0e96f9"
+        android:text="Click Here to Open....."
+        android:textColor="#ffcb2b"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:onClick="ebook"/>
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="12dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Next"
+        android:textSize="18sp"
+        android:onClick="nextone"
+        android:layout_marginRight="15dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/next"
+        android:text="Previous"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:onClick="previousone"
+        android:layout_marginLeft="15dp"/>
+
+
+</RelativeLayout>

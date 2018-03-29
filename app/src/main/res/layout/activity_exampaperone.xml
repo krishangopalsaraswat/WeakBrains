@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.abhi.weakbrain.ExampaperoneActivity">
+
+
+    <TextView
+        android:id="@+id/textm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="38dp"
+        android:text="Open your choice here..."
+        android:textSize="35sp"
+        android:textStyle="italic|bold" />
+
+
+    <Button
+        android:id="@+id/buttonm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textm"
+        android:layout_marginTop="31dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="data structure"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:onClick="datastructure"/>
+
+    <Button
+        android:id="@+id/buttonmn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonm"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="mathematics-3"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:onClick="mathsthree"/>
+
+    <Button
+        android:id="@+id/buttonmno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonmn"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="numerical analysis in computer application"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:onClick="naca"/>
+
+    <Button
+        android:id="@+id/buttonmnop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonmno"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="data communication"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:onClick="datacommunication"/>
+
+    <Button
+        android:id="@+id/buttonmnopq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonmnop"
+        android:layout_marginTop="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="object oriented programming"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:onClick="oops"/>
+</RelativeLayout>
+
+

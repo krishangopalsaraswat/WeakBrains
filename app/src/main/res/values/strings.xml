@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">WeakBrain</string>
+    <string name="todo">TODO</string>
+
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+
+    <string name="resources">Resources:</string>
+
+</resources>
